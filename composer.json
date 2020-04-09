@@ -1,0 +1,21 @@
+{
+  "name": "evandroaugusto/google-places-api",
+  "description": "A simple Google Places API wrapper to search places.",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^7.1",
+    "evandroaugusto/http-client": "0.*"
+  },
+  "authors": [
+    {
+      "name": "Evandro Oliveira",
+      "email": "evandro@siriusprime.com.br"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "evandroaugusto\\GooglePlaces\\": "src"
+    }
+  }
+}
